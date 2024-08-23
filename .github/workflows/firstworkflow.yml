@@ -1,4 +1,4 @@
-name: Our First Workflow
+name: Sample First Workflow
 on: workflow_dispatch
 
 jobs:
