@@ -1,0 +1,13 @@
+name: Our First Workflow
+on: workflow_dispatch
+
+jobs:
+  first-workflow:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Greetings
+        run: echo "Hello GitHub Actions"
+      - name: Multiline
+        run: |
+          node -v
+          npm -v  
